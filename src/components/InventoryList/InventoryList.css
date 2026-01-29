@@ -1,0 +1,26 @@
+/* src/components/InventoryList/InventoryList.css */
+
+.inventory-list > ul {
+  padding: 0;
+}
+
+.inventory-list li {
+  width: 450px;
+  display: flex;
+  margin-top: 5px;
+  list-style: none;
+  border-radius: 5px;
+  align-items: center;
+  padding: 0 16px;
+  border: 1px solid rgb(140, 140, 140);
+  box-sizing: border-box;
+}
+
+.inventory-list li > :first-child {
+  flex-grow: 100;
+  text-align: left;
+}
+
+.inventory-list li > :nth-child(2) {
+  padding-right: 32px;
+}

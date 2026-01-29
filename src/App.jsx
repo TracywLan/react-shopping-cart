@@ -1,10 +1,10 @@
-// src/App.jsx
+import Shop from './components/Shop/Shop';
+import './App.css';
+import { useState } from 'react';
 
-const App = () => {
 
-  return (
-    <h1>Hello world!</h1>
-  );
+function App() {
+  return <Shop />;
 }
 
 export default App

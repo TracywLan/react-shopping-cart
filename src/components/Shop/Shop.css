@@ -1,0 +1,16 @@
+.shop-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+
+.shop-section > div {
+  min-width: 450px;
+}
+
+.shop-section h2 {
+  text-align: center;
+}
+
+
